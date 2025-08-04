@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li><a href="/" {% if title == "Welcome" %}aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="/about" {% if title == "About Me" %}aria-current="page"{% endif %}>About</a></li>
+        <li><a href="/hobbies" {% if title == "My Hobbies" %}aria-current="page"{% endif %}>Hobbies</a></li>
+        <li><a href="/projects" {% if title == "My Projects" %}aria-current="page"{% endif %}>Projects</a></li>
+        <li><a href="/contact" {% if title == "Contact" %}aria-current="page"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
