@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/mtm6407-static-site/styles.css" />
+  <link rel="stylesheet" href="{{ '/styles.css' | url }}" />
 </head>
 <body>
   <nav>
     <ul class="nav-list">
-      <li><a href="/mtm6407-static-site/" {% if title == "Welcome" %}aria-current="page"{% endif %}>Home</a></li>
-      <li><a href="/mtm6407-static-site/about" {% if title == "About Me" %}aria-current="page"{% endif %}>About</a></li>
-      <li><a href="/mtm6407-static-site/hobbies" {% if title == "My Hobbies" %}aria-current="page"{% endif %}>Hobbies</a></li>
-      <li><a href="/mtm6407-static-site/projects" {% if title == "My Projects" %}aria-current="page"{% endif %}>Projects</a></li>
-      <li><a href="/mtm6407-static-site/contact" {% if title == "Contact" %}aria-current="page"{% endif %}>Contact</a></li>
+      <li><a href="{{ '/' | url }}">Home</a></li>
+      <li><a href="{{ '/about.html' | url }}">About</a></li>
+      <li><a href="{{ '/hobbies.html' | url }}">Hobbies</a></li>
+      <li><a href="{{ '/projects.html' | url }}">Projects</a></li>
+      <li><a href="{{ '/contact.html' | url }}">Contact</a></li>
     </ul>
   </nav>
 
