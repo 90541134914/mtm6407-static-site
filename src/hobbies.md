@@ -1,11 +1,12 @@
 ---
 title: "My Hobbies"
 layout: "base.njk"
+permalink: "/hobbies/index.html"
 ---
 
 # My Hobbies
 
 - Coding  
-- Reading books  
-- Playing cricket  
-- Listening to music
+- Reading  
+- Cricket  
+- Music

@@ -1,9 +1,9 @@
 ---
 title: "Contact"
 layout: "base.njk"
+permalink: "/contact/index.html"
 ---
 
 # Contact Me
 
-You can reach me via email at: sahil@example.com  
-Or follow me on social media.
+Email: unish@example.com

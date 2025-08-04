@@ -1,13 +1,12 @@
 ---
 title: "My Projects"
 layout: "base.njk"
+permalink: "/projects/index.html"
 ---
 
 # My Projects
 
-Here are some of the projects I've worked on:
-
-1. Personal Portfolio Website  
-2. Blog using Eleventy  
-3. Simple Todo App  
+1. Portfolio Website  
+2. Blog with Eleventy  
+3. Todo App  
 4. Weather Dashboard

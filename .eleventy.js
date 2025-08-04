@@ -1,12 +1,13 @@
 module.exports = function(eleventyConfig) {
-  // Copy styles.css from project root to _site folder
   eleventyConfig.addPassthroughCopy("styles.css");
+  eleventyConfig.addPassthroughCopy("favicon.ico"); // optional
 
   return {
     dir: {
-      input: "src",       // your source folder
-      output: "_site",    // build output folder
-      layouts: "layouts"  // layouts folder inside src
-    }
+      input: "src",
+      output: "docs",
+      layouts: "layouts"
+    },
+    pathPrefix: "/mtm6407-static-site/"
   };
 };

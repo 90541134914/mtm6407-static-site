@@ -1,9 +1,9 @@
 ---
 title: "Welcome"
 layout: "base.njk"
+permalink: "/index.html"
 ---
 
 # Welcome to My Personal Site
 
-Hello! This is my home page.  
-Feel free to explore my site and learn more about me.
+Hello! This is the home page.
