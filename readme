@@ -1,0 +1,14 @@
+# uni-png
+
+A personal static website built using **Eleventy (11ty)**, featuring a homepage and contact page. This project is a part of a portfolio development course and is designed to showcase projects, hobbies, and personal information.
+
+## 🧾 Project Overview
+
+This site includes:
+- A responsive **homepage** with information about Unish Giri, hobbies, and portfolio projects.
+- A **contact page** with essential contact details.
+- Built using **Eleventy (11ty)** as a static site generator.
+- Styled with a custom CSS file (`styles.css`).
+
+## 📁 Project Structure
+
